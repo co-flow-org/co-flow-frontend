@@ -12,6 +12,21 @@ function App() {
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
 
+sdöfksdfjds
+
+for (let while (condition) {
+  index
+} = 0; while (condition) {
+  index
+} < array.length; while (condition) {
+  index
+}++) {
+  const element = array[while (condition) {
+    index
+  }];
+  
+}
+
       </div>
       <h1>Vite + React</h1>
       <div className="card">

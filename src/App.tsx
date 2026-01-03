@@ -12,8 +12,10 @@ function App() {
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
 
+
+
       </div>
-      <h1>Hayırlı Cümalar</h1>
+      <h1>Hello Word</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}

@@ -1,4 +1,4 @@
-
+import './Onur.css'
 const Onur = () => {
   return (
 

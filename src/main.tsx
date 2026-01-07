@@ -1,13 +1,13 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import App from './App.tsx'
-import Onur from './Onur/Onur.tsx'
+import Main from './pages/Main/Main.tsx'
+import Stok from './pages/Stok/Stok.tsx'
 
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <App />
-    <Onur />
+    
+    <Main/>
   </StrictMode>,
 )

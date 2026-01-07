@@ -4,18 +4,21 @@ const Main = () => {
   return (
     <Grid container spacing={2}>
       <Grid 
-        size={4} 
+        size={2} 
         sx={{ 
-          border: '1px solid black', 
-          backgroundColor: 'primary.light', // Uses theme colors
-          p: 2 // Adds padding
+          
+          //backgroundColor: 'white', // Uses theme colors
+          bgcolor: 'rgba(25, 118, 210, 0.5)',
+          p: 2, // Adds padding
+          
         }}
       >
-        <div>size=8</div>
+        <div className="solgridtext">Sol grid kullanıcılar logo vs.</div>
+        <p className="dashboard-css">Dashboard</p>
       </Grid>
       
       <Grid 
-        size={8} 
+        size={10} 
         sx={{ 
           border: '2px dashed blue', 
           backgroundColor: '#f5f5f5' // Standard hex codes work too
